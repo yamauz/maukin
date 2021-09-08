@@ -1,4 +1,4 @@
-# maukin-todo
+# maukin2
 
 ## Project setup
 ```
