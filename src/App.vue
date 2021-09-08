@@ -6,9 +6,9 @@
     >
     <c-box fontSize="sm">マウス操作ができません。</c-box>
     <c-box fontSize="sm"
-      >エンターキーでインプットにフォーカスしてTODOを入力しましょう</c-box
+      >エンターでインプットにフォーカスしてTODOを入力しましょう</c-box
     >
-    <c-box fontSize="sm">タブキーでアイテムリストにフォーカスします。</c-box>
+    <c-box fontSize="sm">タブでアイテムリストにフォーカスします。</c-box>
     <c-box fontSize="sm">リスト上エンターで編集できます</c-box>
     <!-- <c-button @click="sortItem('createdAt')">sort by createdAt</c-button> -->
     <!-- <c-button @click="sortItem('origText')">sort by text</c-button> -->
