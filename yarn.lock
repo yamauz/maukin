@@ -4799,6 +4799,11 @@ hex-color-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
+highlight-words-core@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/highlight-words-core/-/highlight-words-core-1.2.2.tgz#1eff6d7d9f0a22f155042a00791237791b1eeaaa"
+  integrity sha512-BXUKIkUuh6cmmxzi5OIbUJxrG8OAk2MqoL1DtO3Wo9D2faJg2ph5ntyuQeLqaHJmzER6H5tllCDA9ZnNe9BVGg==
+
 highlight.js@^10.7.1:
   version "10.7.3"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
@@ -9198,6 +9203,11 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
+vue-awesome@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/vue-awesome/-/vue-awesome-4.3.1.tgz#3d5684a931714277c3015e024f35e231e4265fa3"
+  integrity sha512-8FRCtO12pNDp2o2XKVIc7HApMFrws42rR9+AiDYjW6lsHbhMy0ygvhaByNEGlQSbp2gb3ZZkeV0UJxKdur5c1Q==
+
 vue-cli-plugin-chakra-ui@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/vue-cli-plugin-chakra-ui/-/vue-cli-plugin-chakra-ui-1.0.3.tgz#64b7ccbbf6aa900bdfc9b32e4221b09ac5658059"
@@ -9215,6 +9225,18 @@ vue-eslint-parser@^7.0.0:
     esquery "^1.4.0"
     lodash "^4.17.21"
     semver "^6.3.0"
+
+vue-global-events@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/vue-global-events/-/vue-global-events-1.2.1.tgz#4c1398a1f67854c73290f5c1cedb5109116c2b50"
+  integrity sha512-035Su/+5GUFnj9potJThJXu9DnayRKSENbuBw5k5sMa6hetiY+6Yu+5zUtPXT4X0S9y8tX7uSxGZJMMYiqhFfg==
+
+vue-highlight-words@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/vue-highlight-words/-/vue-highlight-words-1.2.0.tgz#73c2d49a46ecdb0638358b7ad749013c190ece5c"
+  integrity sha512-TkROGAnjxi/Xm4hBd1budn/kQmg8sfTF2TKwkj2O3PuLOgf6D1QOLpnnaTUEV/wP6Z3kVb3IcIHDZDAWvXQmMQ==
+  dependencies:
+    highlight-words-core "^1.2.2"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
